@@ -1,4 +1,18 @@
 
+/*Project Sizes*/
+
+img.karma {
+	width:250px;
+	height:auto;
+}
+img.newyork{
+	width:250px;
+	height:auto;
+}
+img.aboutme {
+	width:250px;
+	height:auto;
+}
 
 body{
 	background-color: white;
@@ -87,7 +101,7 @@ font-size: 2rem;
 	height: 10em;
 	background-color: white;
 	padding-top: 1em;
-	padding-bottom:13em;
+	padding-bottom:7em;
 }
 
 .my-projects, .about-me {
@@ -95,6 +109,11 @@ font-size: 2rem;
 	font-family: 'Playfair Display SC', serif;
 	font-weight: 300;
 	font-size: 1.7rem;
+	padding-left: 3em;
+}
+
+.previews {
+	text-align: center;
 }
 
 .projects .previews li {
@@ -121,3 +140,16 @@ hr {
     border-width: 1px;
 }
 
+/*Media Inquiries */
+
+@media only screen and (max-width: 909px){
+	 .overview{
+		padding-top:6em;
+	}
+}
+
+@media only screen and (max-width: 624px){
+	.overview{
+		padding-top: 16em;
+	}
+}
